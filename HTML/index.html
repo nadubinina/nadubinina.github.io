@@ -6,62 +6,66 @@
     <title>Document</title>
     <link rel="stylesheet" href="../CSS/index.css">
 </head>
-<body>
-    <div>
-        <h1>Страничка обо мне</h1>
-        <section>
-            <p>
-                <h2>Основные данные</h2>
-                <h3>Имя: Наталия</h3>
-                <h3>Фамилия: Дубинина</h3>
-                <h3>Отчество: Андреевна</h3>
-                <h3>Возвраст: 20</h3>
-                <h3>Место учёбы: ИТА ЮФУ, ИКТИБ, МОП ЭВМ</h1>
-            </p>
-        </section>
-        <section>
-            <p>
-                <h2>Неосновные данные</h2>
-                <h3>Хобби:</h3>
-                <ul>
-                    <li><em>Книги</em></li>
-                    <li><em>Комиксы</em></li>
-                    <li><strong>Аниме</strong></li>
+<body class="body">
+    <h1 class="main-title">Страничка обо мне</h1>
+    <section class="main-info">
+        <h2 class="main-info-title">Основные данные </h2>
+        <ul class="main-info-list">
+            <li class="main-info-item">Имя: <strong>Наталия</strong></li>
+            <li class="main-info-item">Фамилия: <strong>Дубинина</strong></li>
+            <li class="main-info-item">Отчество: <strong>Андреевна</strong></li>
+            <li class="main-info-item">Возвраст: <strong>20</strong></li>
+            <li class="main-info-item">Место учёбы: <strong>ИТА ЮФУ, ИКТИБ, МОП ЭВМ</strong></li>
+        </ul>
+    </section>
+    <section class="another-info">
+        <h2 class="another-info-title">Неосновные данные </h2>
+        <ul class="another-info-list">
+            <li class="another-info-item"><strong>Хобби:</strong></li>
+                <ul class="hobby-list">
+                    <li class="hobby-item"><em>Книги</em></li>
+                    <li class="hobby-item"><em>Комиксы</em></li>
+                    <li class="hobby-item"><em>Аниме</em></li>
                 </ul>
-                <h3>Cамая часто используемая картинка:</h3>
-                <img src="../img/vas_zametili.png">
-                <p><a href="https://vk.com/video/@kisaigrisa?z=video459588384_456239285%2Fln-6j6AV6wtZYKhZLEY6c" >Самое часто отправляемое видео</a></p>
-                <h3>Любимые персонажи</h3>
-                <table>
-                    <thead >
-                        <th>Любимый персонаж</th>
-                        <th>Произведение</th>
-                    </thead>
-                    <tbody>
-                        <tr class="dead-character">
-                            <td >Портгас Д. Эйс</td>
-                            <td>Ван Пис</td>
-                        </tr>
-                        <tr class="living-character">
-                            <td>Трафальгар Д. Ватер Ло</td>
-                            <td>Ван Пис</td>
-                        </tr>
-                        <tr class="living-character">
-                            <td >Ророноа Зоро</td>
-                            <td>Ван Пис</td>
-                        </tr>
-                        <tr class="living-character">
-                            <td >Жан Прыг</td>
-                            <td>Принцесса-лебедь</td>
-                        </tr>
-                        <tr class="living-character">
-                            <td >Зеддикус З'ул Зорандер</td>
-                            <td>Меч истины</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </p>
-        </section>
-    </div>
+            <li class="another-info-">
+                <h3 class="favorite-image-title">Cамая часто используемые картинка:</h3> 
+                <img class="favorite-image-item" src="../img/vas_zametili.png">
+            </li>
+            <li>
+                <a class="favorite-video" href="https://vk.com/video/@kisaigrisa?z=video459588384_456239285%2Fln-6j6AV6wtZYKhZLEY6c" ><strong>Самое часто отправляемое видео</strong></a>
+            </li>
+        </ul>
+    </section>
+    <section class="favorite-characters">
+        <h2 class="favorite-characters-title">Любимые персонажи</h2>
+        <table class="favorite-characters-table">
+            <thead class="favorite-characters-table-header" >
+                <th class="favorite-characters-table-title">Любимый персонаж</th>
+                <th class="favorite-characters-table-title">Произведение</th>
+            </thead>
+            <tbody>
+                <tr class="dead-character">
+                    <td class="dead-character-name" >Портгас Д. Эйс</td>
+                    <td class="dead-character-world">Ван Пис</td>
+                </tr>
+                <tr class="living-character">
+                    <td class="living-character-name">Трафальгар Д. Ватер Ло</td>
+                    <td class="living-character-world">Ван Пис</td>
+                </tr>
+                <tr class="living-character">
+                    <td class="living-character-name" >Ророноа Зоро</td>
+                    <td class="living-character-world">Ван Пис</td>
+                </tr>
+                <tr class="living-character">
+                    <td class="living-character-name">Жан Прыг</td>
+                    <td class="living-character-world">Принцесса-лебедь</td>
+                </tr>
+                <tr class="living-character">
+                    <td class="living-character-name">Зеддикус З'ул Зорандер</td>
+                    <td class="living-character-world">Меч истины</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
 </body>
 </html>

@@ -1,4 +1,4 @@
-div {
+.body {
     width:50%;
 
     margin-left: auto;
@@ -8,34 +8,46 @@ div {
     border-radius: 2.5%;
 
     background:#f1f1f1; 
-    color:rgba(0, 0, 139, 0.75);
+    color:rgba(0, 0, 139, 0.7);
 }
 
-h1, h2 {
+.main-info-title, .another-info-title, .main-title, .favorite-characters {
+    size: 22px;
     color:rgba(0, 0, 139, 0.9);
-    margin-top: 30px;
 }
 
-ul {
+.main-info-list, .another-info-list {
+    list-style-type: none;
+}
+
+.hobby-list {
     list-style-image: url(../img/list-img.png);
 }
 
-img {
-    width: 100%;
+.main-info-item, .another-info-item, .favorite-image-title {
+    font-size: 20px;
+}
+
+.hobby-item {
+    font-size: 16px;
+}
+
+.favorite-image-item {
+     width: 100%;
     height: auto;
 }
 
-a {
+.favorite-video {
     font-size: 22px;
     text-decoration: none;
 }
 
-table{
+.favorite-characters-table{
     width: 400px;
     border: 1px solid black;
 }
 
-th, td {
+.favorite-characters-table-title, .dead-character-name, .dead-character-world, .living-character-name, .living-character-world {
     border: 1px solid black;
  }
 
