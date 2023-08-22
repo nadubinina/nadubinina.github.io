@@ -1,0 +1,48 @@
+div {
+    width:50%;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+
+    border-radius: 2.5%;
+
+    background:#f1f1f1; 
+    color:rgba(0, 0, 139, 0.75);
+}
+
+h1, h2 {
+    color:rgba(0, 0, 139, 0.9);
+    margin-top: 30px;
+}
+
+ul {
+    list-style-image: url(../img/list-img.png);
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    font-size: 22px;
+    text-decoration: none;
+}
+
+table{
+    width: 400px;
+    border: 1px solid black;
+}
+
+th, td {
+    border: 1px solid black;
+ }
+
+.living-character {
+    color: rgb(25, 146, 25);
+}
+
+.dead-character {
+    color: rgb(209, 0, 0);
+}
