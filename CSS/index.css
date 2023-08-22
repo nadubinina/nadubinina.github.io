@@ -1,5 +1,5 @@
-.body {
-    width:50%;
+.page-container{
+    width: 50%;
 
     margin-left: auto;
     margin-right: auto;
@@ -11,20 +11,18 @@
     color:rgba(0, 0, 139, 0.7);
 }
 
-.main-info-title, .another-info-title, .main-title, .favorite-characters {
-    size: 22px;
-    color:rgba(0, 0, 139, 0.9);
-}
-
-.main-info-list, .another-info-list {
+.main-info-list, 
+.another-info-list {
     list-style-type: none;
 }
 
 .hobby-list {
-    list-style-image: url(../img/list-img.png);
+    list-style-image: url('../img/list-img.png');
 }
 
-.main-info-item, .another-info-item, .favorite-image-title {
+.main-info-item, 
+.another-info-item, 
+.favorite-image-title {
     font-size: 20px;
 }
 
@@ -33,7 +31,7 @@
 }
 
 .favorite-image-item {
-     width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -43,11 +41,16 @@
 }
 
 .favorite-characters-table{
-    width: 400px;
+    width: 450px;
     border: 1px solid black;
+    border-collapse: collapse;
 }
 
-.favorite-characters-table-title, .dead-character-name, .dead-character-world, .living-character-name, .living-character-world {
+.favorite-characters-table-title, 
+.dead-character-name, 
+.dead-character-world, 
+.living-character-name, 
+.living-character-world {
     border: 1px solid black;
  }
 
