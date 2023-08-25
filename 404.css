@@ -29,6 +29,8 @@
 .about-me {
     font-size: 50px;
     color:midnightblue;
+
+    text-decoration: none;
 }
 
 @font-face {
