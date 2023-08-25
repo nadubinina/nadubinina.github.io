@@ -1,0 +1,40 @@
+.body {
+    margin: 0px;
+}
+
+.background-not-found {
+    width: 100vw;
+}
+
+.not-found-404-text {
+    position: relative;
+    text-align: center;
+    margin-top: -720px ;
+
+    color:navy;
+    font-family: "Pingwing";
+ 
+}
+
+.exception-number-text {
+    font-size: 200px;
+    margin-bottom: 0px;
+}
+
+.not-found-text {
+    font-size: 150px;
+    margin-top: -40px; 
+}
+
+.about-me {
+    font-size: 50px;
+    color:midnightblue;
+}
+
+@font-face {
+    font-family: "Pingwing";
+    src: url("fonts/Pingwing.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
